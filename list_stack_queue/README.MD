@@ -1,0 +1,3 @@
+*list.h和list.cpp是链表最基本的实现。
+*list_cursor.h和list_cursor.cpp是在没有指针的语言中链表可以实现的形式，具体来说是维护一个全局的数组来模拟内存，然后实现自己的nalloc和free函数
+*stack_linked_list.h和stack_linked_list.cpp是用链表作为实现基础的stack
