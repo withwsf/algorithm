@@ -5,9 +5,11 @@ CONFIG -= qt
 
 SOURCES += main.cpp \
     insertsort.cpp \
-    bubblesort.cpp
+    bubblesort.cpp \
+    shellsort.cpp
 
 HEADERS += \
     insertsort.h \
-    bubblesort.h
+    bubblesort.h \
+    shellsort.h
 
