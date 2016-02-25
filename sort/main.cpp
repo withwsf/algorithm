@@ -3,8 +3,10 @@
 #include "bubblesort.h"
 #include "shellsort.h"
 #include "mergesort.h"
+#include "quicksort.h"
 #include "vector"
 #include "stdlib.h"
+
 using namespace std;
 void printArray(int* a,int size){
     if(a==nullptr){
@@ -40,8 +42,9 @@ int main()
     shellSort(b,0);
     printArray(b,0);
     vector<float> fff{9993.4,1254.3,433.45,3432.3};
-    mergeSort(e);
-    mergeSort(fff);
+    QuickSort(e);
+    //mergeSort(e);
+    //mergeSort(fff);
 
     cout << "Hello World!" << endl;
     return 0;

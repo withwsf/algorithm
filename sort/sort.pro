@@ -13,5 +13,6 @@ HEADERS += \
     insertsort.h \
     bubblesort.h \
     shellsort.h \
-    mergesort.h
+    mergesort.h \
+    quicksort.h
 
