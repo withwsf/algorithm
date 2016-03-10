@@ -4,7 +4,7 @@
 * 因为经过判断语句之后只剩下对相同长度字符串的处理，因此只有s和t完全相同时才能保证不小于0.
 
 代码如下：
-'
+```c++
 class Solution {
 public:
     bool isAnagram(string s, string t) {
@@ -27,5 +27,5 @@ public:
         }
 
     }
-};
-'
+}
+```
