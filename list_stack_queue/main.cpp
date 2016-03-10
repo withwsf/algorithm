@@ -1,22 +1,15 @@
 #include <iostream>
-#include "queue.h"
+#include "list.h"
+#include "odd_list_first.h"
 using namespace std;
+
 int main()
 {
-    PtrToQueue Q=createQueue(4);
-    enQueue(1,Q);
-    enQueue(2,Q);
-    enQueue(3,Q);
-    enQueue(4,Q);
-    dequeue(Q);
-    dequeue(Q);
-    enQueue(5,Q);
-    enQueue(6,Q);
-    dequeue(Q);
-    dequeue(Q);
-    dequeue(Q);
-    dequeue(Q);
-    dequeue(Q);
+    List L=CreateList();
+    PrintList(L);
+    List odd_L=odd_list_first(L,5);
+    PrintList(odd_L);
+    return 0;
 
 
 
